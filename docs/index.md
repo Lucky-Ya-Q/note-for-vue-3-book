@@ -10,10 +10,10 @@ hero:
     alt: Vue.js设计与实现
   actions:
     - theme: brand
-      text: Get Started
+      text: 开始
       link: /two/4.1响应式数据与副作用函数
     - theme: alt
-      text: View on GitHub
+      text: 配套代码
       link: https://github.com/HcySunYang/code-for-vue-3-book
 
 features:

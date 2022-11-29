@@ -1,7 +1,11 @@
-export default {
+import {defineConfig} from 'vitepress'
+
+export default defineConfig({
     title: 'Vue.js设计与实现',
     titleTemplate: '《Vue.js设计与实现》阅读笔记',
-    description: '《Vue.js设计与实现》阅读笔记',
+    markdown: {
+        lineNumbers: true
+    },
     lastUpdated: true,
     themeConfig: {
         nav: [
@@ -33,7 +37,7 @@ export default {
             copyright: 'Copyright © 2022-present <a href="https://www.shanyexia.top">山野下</a>'
         }
     }
-}
+})
 
 function one() {
     return [
